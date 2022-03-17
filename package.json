@@ -2,9 +2,10 @@
   "name": "angular-tour-of-heroes",
   "version": "0.0.0",
   "scripts": {
+    "lint": "tslint ./src/**/*.ts -t verbose",
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start": "ng build && node server.js",
+    "build": "ng build --prod",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
