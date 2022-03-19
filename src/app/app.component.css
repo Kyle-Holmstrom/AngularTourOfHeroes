@@ -1,0 +1,30 @@
+a {
+    text-decoration: none;
+    padding: 10px 16px;
+    margin: 0px 10px;
+    font-weight: bold;
+    background-color: #3f525c; 
+    color: white;
+    width: 80px;
+    font-size: 17px;
+  }
+
+a:hover {
+    background-color: #000000;
+    color: white;     
+}
+
+button.clear {
+    font-size: 16px;
+    margin-bottom: 9px;
+
+}
+
+button.clear:hover {
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+div {
+    margin: 6px 0px;
+}
